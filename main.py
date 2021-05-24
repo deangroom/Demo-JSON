@@ -1,6 +1,6 @@
 import json
 with open('Stats.json') as stats:
- data = json.load(stats)
+ #data = json.load(stats)
  print(data)
 Strength = input("How much strength? ")
 data["Strength: "] = Strength
